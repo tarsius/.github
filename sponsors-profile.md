@@ -6,14 +6,14 @@ Post this into the text-fields at https://github.com/sponsors/tarsius/dashboard/
 Short bio (125 characters)
 ==========================
 
+I maintain Magit, which is the most advanaced Git client and by many considered to be one of Emacs' killer apps.
+
 Introduction
 ============
 
 I am the maintainer of [Magit](https://magit.vc) one of the most [popular](http://www.melpa.org/#/?sort=downloads&asc=false) and even [beloved](https://magit.vc/quotes) Emacs packages. I love seeing it mentioned as "one of Emacs' killer apps" again and again. That feels really good. Thanks!
 
-Unfortunately it does not really translate to a stable income. At the end of 2017 I ran a successful Kickstarter campaign and subsequently was able to improve Magit a lot. 2019 was slower. *Important side notes:* I still owe backers the promised cheat cheats and posters. I'll send those out in January. I do not plan to do another Kickstarter campaign. I would rather have a steady income. That is less stressful, which in turn helps my productivity.
-
-I would like to work full time on Magit and other Emacs related projects again. Please help make that a reality by becoming a sponsor. There's still so much I want to do and if you are one of those people who only has the highest praise for Magit, then you should be excited about that. :grinning:
+Please also help me make Magit better by becoming a sponsor. There's still so much I want to do and if you are one of those people who only has the highest praise for Magit, then you should be excited about that. :grinning:
 
 ----
 
