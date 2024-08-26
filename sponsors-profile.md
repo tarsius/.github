@@ -15,16 +15,30 @@ I am the maintainer of [Magit](https://magit.vc) one of the most [popular](http:
 
 Please also help me make Magit better by becoming a sponsor. There's still so much I want to do and if you are one of those people who only has the highest praise for Magit, then you should be excited about that. :grinning:
 
-----
+> ----
+>
+> **Please note that these donations are my only source of income, which is still very low.  Any support you can give really makes a difference.**
+>
+> ----
 
-Beside Magit, I also maintain the [Emacsmirror](https://emacsmirror.net), the [biggest collection](https://github.com/emacsmirror) of Emacs packages. I also regularly contribute to Melpa.
+Additionally I maintain
 
-The Emacsmirror as well as my Git submodule based package manager [`borg`](https://emacsmirror.net/manual/borg) go back to about the same time as when `package.el` was born. Ever since then I quietly worked on that, contributing fixes to many hundreds of packages in the process. This work is much less visible, but I believe it had a big impact on the overall quality of third-party packages. For example there are currently only [two feature conflicts](https://emacsmirror.net/stats/issues.html) among the more than 7000 known packages, which is largely my doing.
+* [Forge](https://github.com/magit/forge) an extension to Magit, which allows you to use Github and Gitlab from the comfort of Emacs.
 
-Based on that work I would like to do more to automate testing of all Emacs packages and automatically suggesting fixes. Currently this work is being done semi-manually when a package is first added to Melpa, but this could and should be done regularly for packages that are already distributed on Melpa and have not been reviewed in a long time or ever.
+* [Transient](https://github.com/magit/transient), the package used to implement Magit's menus and an [increasing number](https://melpa.org/#/transient) of third-party packages.  This package is part of Emacs since the 28.1 release and is used by the built-in Emoji package.
 
-I'm also the author of another few dozen packages, which are listed at [here](https://github.com/tarsius?tab=repositories), [here](https://github.com/magit) or [here](https://github.com/emacscollective).
+* [`package-build`](https://github.com/melpa/package-build), which is used to build the package distributed on [Melpa](https://melpa.org).
 
-----
+* The [Emacsmirror](https://emacsmirror.net), the [biggest collection](https://github.com/emacsmirror) of Emacs packages. I also regularly contribute to Melpa.
 
-[Emacsair](https://emacsair.me) is my blog.
+* The Emacsmirror as well as my Git submodule based package manager [`borg`](https://emacsmirror.net/manual/borg) go back to about the same time as when `package.el` was born. Ever since then I quietly worked on that, contributing fixes to many hundreds of packages in the process. This work is much less visible, but I believe it has a big impact on the overall quality of packages.
+
+* A few dozen other packages, which are listed [here](https://github.com/tarsius?tab=repositories), [here](https://github.com/magit) or [here](https://github.com/emacscollective).
+
+I also regularly contribute to [Melpa](https://melpa.org).
+
+I blog on [Emacsair](https://emacsair.me) and sometimes [tweet](https://twitter.com/magit_emacs).
+
+# 💕
+**Thanks a lot for your support!**
+Jonas
