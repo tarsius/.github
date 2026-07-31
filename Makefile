@@ -16,6 +16,12 @@ dispense:
 	@sed .github/ISSUE_TEMPLATE/config__magit_repo.yml -e "s/{{Package}}/Transient/g"   -e "s/{{package}}/transient/g"   >   $(PKGS)/transient/.github/ISSUE_TEMPLATE/config.yml
 	@sed .github/ISSUE_TEMPLATE/config__magit_repo.yml -e "s/{{Package}}/With-Editor/g" -e "s/{{package}}/with-editor/g" > $(PKGS)/with-editor/.github/ISSUE_TEMPLATE/config.yml
 
+	@cp -v .github/CONTRIBUTING.md                        ../emacscollective/.github/CONTRIBUTING.md
+	@cp -v .github/CONTRIBUTING.md                                  ../magit/.github/CONTRIBUTING.md
+	@cp -v .github/CONTRIBUTING.md                                ../tarsius/.github/CONTRIBUTING.md
+
+	@cp -v .github/CONTRIBUTING__magit_magit.md                $(PKGS)/magit/.github/CONTRIBUTING.md
+
 	@cp -v .github/ISSUE_TEMPLATE/bug_report__devel.md    ../emacscollective/.github/ISSUE_TEMPLATE/bug_report.md
 	@cp -v .github/ISSUE_TEMPLATE/bug_report__magit.md              ../magit/.github/ISSUE_TEMPLATE/bug_report.md
 	@cp -v .github/ISSUE_TEMPLATE/bug_report__devel.md            ../tarsius/.github/ISSUE_TEMPLATE/bug_report.md
