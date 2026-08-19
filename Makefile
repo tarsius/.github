@@ -59,7 +59,7 @@ dispense:
 	@cp -v profile/README__archives.md                        ../emacsmirror/profile/README.md
 	@cp -v profile/README__archives.md                     ../emacsorphanage/profile/README.md
 # TODO  @cp -v profile/README__collective.md                  ../emacscollective/profile/README.md
-# TODO  @cp -v profile/README__magit.md                                 ../magit/profile/README.md
+	@cp -v profile/README__magit.md                                 ../magit/profile/README.md
 	@cp -v profile/README__tarsius.md                             ../tarsius_profile/README.md
 
 # NOTE	sponsors-profile.md has to be pasted at https://github.com/sponsors/tarsius/dashboard/profile
@@ -82,6 +82,7 @@ init:
 	@mkdir -pv      ../emacsattic/profile/
 	@mkdir -pv     ../emacsmirror/profile/
 	@mkdir -pv  ../emacsorphanage/profile/
+	@mkdir -pv           ../magit/profile/
 
 init-remotes:
 	@cd        $(BASE)/emacsattic; git remote add origin https://github.com/emacsattic/.github
