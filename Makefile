@@ -21,6 +21,7 @@ dispense:
 	@cp -v .github/CONTRIBUTING.md                                ../tarsius/.github/CONTRIBUTING.md
 
 	@cp -v .github/CONTRIBUTING__magit_magit.md                $(PKGS)/magit/.github/CONTRIBUTING.md
+	@cp -v .github/CONTRIBUTING__package-build.md      $(PKGS)/package-build/.github/CONTRIBUTING.md
 
 	@cp -v .github/ISSUE_TEMPLATE/bug_report__devel.md    ../emacscollective/.github/ISSUE_TEMPLATE/bug_report.md
 	@cp -v .github/ISSUE_TEMPLATE/bug_report__magit.md              ../magit/.github/ISSUE_TEMPLATE/bug_report.md
