@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: "💡 Suggest a feature 👉 please open a discussion instead of an issue 👈"
+  - name: "💡 Suggest a feature 👉 Please open a discussion instead of an issue 👈"
     url: https://github.com/tarsius/.github/blob/main/discussions/ideas.md
     about: Start a discussion suggesting an improvement or a new feature.
-  - name: "🆘 Request help ☛ please open a discussion instead of an issue"
+  - name: "🆘 Request help 👉 Please open a discussion instead of an issue 👈"
     url: https://github.com/tarsius/.github/blob/main/discussions/support.md
     about: Please search, ask and answer questions here.
+  - name: "💕 Please support my work on this and many other Emacs projects"
+    url: https://github.com/sponsors/tarsius
+    about: Thanks! Any support helps. These donations from users are my only income.
