@@ -59,7 +59,7 @@ dispense:
 	@cp -v profile/README__archives.md                         ../emacsattic/profile/README.md
 	@cp -v profile/README__archives.md                        ../emacsmirror/profile/README.md
 	@cp -v profile/README__archives.md                     ../emacsorphanage/profile/README.md
-# TODO  @cp -v profile/README__collective.md                  ../emacscollective/profile/README.md
+	@cp -v profile/README__emacscollective.md             ../emacscollective/profile/README.md
 	@cp -v profile/README__magit.md                                 ../magit/profile/README.md
 	@cp -v profile/README__tarsius.md                             ../tarsius_profile/README.md
 
