@@ -73,8 +73,8 @@ init:
 	@git init            ../magit
 	@git init          ../tarsius
 
-	@mkdir -pv      ../emacsattic/.github/
-	@mkdir -pv     ../emacsmirror/.github/
+#	@mkdir -pv      ../emacsattic/.github/
+#	@mkdir -pv     ../emacsmirror/.github/
 	@mkdir -pv  ../emacsorphanage/.github/
 	@mkdir -pv ../emacscollective/.github/ISSUE_TEMPLATE/
 	@mkdir -pv           ../magit/.github/ISSUE_TEMPLATE/
@@ -83,7 +83,9 @@ init:
 	@mkdir -pv      ../emacsattic/profile/
 	@mkdir -pv     ../emacsmirror/profile/
 	@mkdir -pv  ../emacsorphanage/profile/
+	@mkdir -pv ../emacscollective/profile/
 	@mkdir -pv           ../magit/profile/
+#	@mkdir -pv         ../tarsius_profile/
 
 init-remotes:
 	@cd        $(BASE)/emacsattic; git remote add origin https://github.com/emacsattic/.github
@@ -93,6 +95,5 @@ init-remotes:
 	@cd             $(BASE)/magit; git remote add origin https://github.com/magit/.github
 	@cd           $(BASE)/tarsius; git remote add origin https://github.com/tarsius/.github
 	@cd   $(BASE)/tarsius_profile; git remote add origin https://github.com/tarsius/tarsius
-
 
 # diff --color=always -u old/emacscollective/.github/ISSUE_TEMPLATE/bug_report.md new/emacscollective/.github/ISSUE_TEMPLATE/bug_report.md
